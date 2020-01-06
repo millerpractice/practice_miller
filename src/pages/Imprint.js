@@ -13,7 +13,7 @@ export default class Imprint extends Component {
                     backgroundColor: lightGreen[200], height: 700, width: 1000, paddingTop: 30, marginTop: 50,
                     marginLeft: 280,borderRadius: 16
                 }}>
-                    <Typography style={{ color: teal[800], fontSize: 30, fontWeight: 700 }}>Imprint</Typography>
+                    <Typography style={{ color: teal[800], fontSize: 30, fontWeight: 700 }} >Imprint</Typography>
                     <Typography style={{ color: teal[800], fontSize: 17, fontWeight: 700, marginTop: 100 }}>Practice Miller</Typography>
                     <Typography style={{ color: teal[800], fontSize: 17, fontWeight: 500, marginTop:20 }}>Liebigstraße 62</Typography>
                     <Typography style={{ color: teal[800], fontSize: 17, fontWeight: 500 }}>64293 Darmstadt </Typography>
