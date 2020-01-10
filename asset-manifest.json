@@ -1,30 +1,28 @@
 {
   "files": {
     "main.css": "/practice_miller/static/css/main.d1b05096.chunk.css",
-    "main.js": "/practice_miller/static/js/main.8c1697e5.chunk.js",
-    "main.js.map": "/practice_miller/static/js/main.8c1697e5.chunk.js.map",
+    "main.js": "/practice_miller/static/js/main.eb71493d.chunk.js",
+    "main.js.map": "/practice_miller/static/js/main.eb71493d.chunk.js.map",
     "runtime-main.js": "/practice_miller/static/js/runtime-main.8fa77128.js",
     "runtime-main.js.map": "/practice_miller/static/js/runtime-main.8fa77128.js.map",
-    "static/js/2.9315a3eb.chunk.js": "/practice_miller/static/js/2.9315a3eb.chunk.js",
-    "static/js/2.9315a3eb.chunk.js.map": "/practice_miller/static/js/2.9315a3eb.chunk.js.map",
+    "static/js/2.e41eb62a.chunk.js": "/practice_miller/static/js/2.e41eb62a.chunk.js",
+    "static/js/2.e41eb62a.chunk.js.map": "/practice_miller/static/js/2.e41eb62a.chunk.js.map",
     "index.html": "/practice_miller/index.html",
-    "precache-manifest.30d3497e395184939f28ab7ce0122ce4.js": "/practice_miller/precache-manifest.30d3497e395184939f28ab7ce0122ce4.js",
+    "precache-manifest.7fa47db206d0f67e8caab426c4f38982.js": "/practice_miller/precache-manifest.7fa47db206d0f67e8caab426c4f38982.js",
     "service-worker.js": "/practice_miller/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/practice_miller/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.9315a3eb.chunk.js.LICENSE": "/practice_miller/static/js/2.9315a3eb.chunk.js.LICENSE",
+    "static/js/2.e41eb62a.chunk.js.LICENSE": "/practice_miller/static/js/2.e41eb62a.chunk.js.LICENSE",
     "static/media/arzt.png": "/practice_miller/static/media/arzt.de578f1b.png",
     "static/media/doctor comp.png": "/practice_miller/static/media/doctor comp.657ddffa.png",
     "static/media/healthcare.png": "/practice_miller/static/media/healthcare.3f35d139.png",
     "static/media/kaira.png": "/practice_miller/static/media/kaira.ab92270c.png",
     "static/media/logo.png": "/practice_miller/static/media/logo.69272775.png",
-    "static/media/map.PNG": "/practice_miller/static/media/map.b34c85bd.PNG",
-    "static/media/office.jpg": "/practice_miller/static/media/office.9c84c66c.jpg",
     "static/media/welcome.jpg": "/practice_miller/static/media/welcome.752a77e5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8fa77128.js",
-    "static/js/2.9315a3eb.chunk.js",
+    "static/js/2.e41eb62a.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.8c1697e5.chunk.js"
+    "static/js/main.eb71493d.chunk.js"
   ]
 }
