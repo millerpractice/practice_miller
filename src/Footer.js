@@ -8,12 +8,13 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <Paper square={true} style={{ backgroundColor: lightGreen[700], height: 64, overflowX: "hidden" }}>
-                <Typography style={{ color: "white", float: "right", marginTop: 40, marginRight: 10 }}>Practice Miller ©2020</Typography>
-                <Link style={{color:'white', fontSize: 15, float: "left", marginLeft: 20, marginTop: 35, 
-                fontWeight: 500, textDecorationLine: 'blink',  marginRight: 10}} to="/imprint">Imprint</Link>
-                <Link style={{color:'white', fontSize: 15, fontWeight: 500, textDecorationLine: 'blink', 
-                 marginRight: 10, float: "left", marginLeft: 20, marginTop: 35}} to="/privacy"> Privacy Policy</Link>
+            <Paper square={true} style={{ backgroundColor: lightGreen[700], maxHeight: 64,height:"5vw",
+             overflowX: "hidden", overflowY: "hidden", position:"relative" }}>
+                <Typography style={{ color: "white", right: 0,fontSize:"1.05vw", bottom: 5, marginRight: 10, position:"absolute" }}>Practice Miller ©2020</Typography>
+                <Link style={{color:'white', fontSize: "1.05vw", fontWeight: 500, textDecorationLine: 'blink', 
+                  left: 0, marginLeft: 20, bottom: 5, position:"absolute"}} to="/imprint">Imprint</Link>
+                <Link style={{color:'white', fontSize: "1.05vw", fontWeight: 500, textDecorationLine: 'blink', 
+                  left: 0, marginLeft: 90, bottom: 5, position:"absolute"}} to="/privacy"> Privacy Policy</Link>
             </Paper>
         )
     }

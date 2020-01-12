@@ -14,7 +14,7 @@ export default class Home extends Component {
 
     render() {
         return (
-<Paper style ={{overflowX:"hidden"}}>
+<Paper style ={{overflowX:"hidden", overflowY:"hidden"}}>
 <Header></Header>
 <Logo></Logo>
 <Welcome></Welcome>

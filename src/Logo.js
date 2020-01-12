@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import Paper from '@material-ui/core/Paper';
 import lightGreen from '@material-ui/core/colors/lightGreen';
-import logo from './logo.png';
-
-
-
+import logosm from './logo sm.png';
+import logomd from './logo md.png';
+import logolg from './logo lg.png';
+import ResponsiveImgMaterialUi from "responsive-img-material-ui";
+import { Container } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
 
 export default class Logo extends Component {
 
@@ -13,18 +14,37 @@ export default class Logo extends Component {
     render() {
         return (
 
-            <Paper square={true} style={{
-                backgroundColor: lightGreen[300], marginTop: 64,
-                height: 160, overflowX:"hidden", overflowY:"hidden"
-            }}>
-                <img src={logo} alt="Logo" style={{ float: "left", height: 150, marginTop: 12, marginLeft:15 }} />
-                <div style={{marginTop: 120, marginRight: -60, width: 600, float: 'right'}}>
-                <a style={{color:'white', fontSize: 20, fontWeight: 500, textDecorationLine: 'blink',  marginRight: 10}} href='#welcome'> Welcome </a>
-                <a style={{color:'white', fontSize: 20, fontWeight: 500, textDecorationLine: 'blink', marginRight: 10}} href='#aboutus'> About us </a>
-                <a style={{color:'white', fontSize: 20, fontWeight: 500, textDecorationLine: 'blink', marginRight: 10}} href='#team'>Team </a>
-                <a style={{color:'white', fontSize: 20, fontWeight: 500, textDecorationLine: 'blink', marginRight: 10}} href='#contact'> Contact</a>
-                </div>
-            </Paper>
+            <Container style={{marginTop: "3.2%",backgroundColor: lightGreen[300], maxHeight:160, maxWidth:1519.2, position: "absolute",
+                paddingLeft: "initial", paddingRight: "initial"}}>
+
+                <ResponsiveImgMaterialUi
+          xs={logosm}
+          sm={logosm}
+          md={logomd}
+          lg={logolg}
+          style={{float: "left",  marginTop: 12, marginLeft:25 }}
+        />
+       
+        
+        <Grid container spacing={0} direction="row" justify="flex-end"
+  alignItems="flex-end"style={{width:370, right:0, marginRight:20, bottom: 5,
+  maxHeight: "fit-content", position: "absolute"
+}}> 
+             <Grid item xs  style={{flexBasis:"initial", maxWidth:"fit-content", marginRight:10}}>
+        <a style={{color:'white', fontSize: "1.25vw", fontWeight: 500, textDecorationLine: 'blink'}} href='#welcome'> Welcome </a>
+        </Grid>
+        <Grid item xs style={{flexBasis:"initial", maxWidth:"fit-content", marginRight:10}}>
+        <a style={{color:'white', fontSize: "1.25vw", fontWeight: 500, textDecorationLine: 'blink'}} href='#aboutus'> About us </a>
+        </Grid>
+        <Grid item xs  style={{flexBasis:"initial", maxWidth:"fit-content", marginRight:10}}>
+        <a style={{color:'white', fontSize: "1.25vw", fontWeight: 500, textDecorationLine: 'blink' }} href='#team'>Team </a>  
+       </Grid>
+        <Grid item xs  style={{flexBasis:"initial", maxWidth:"fit-content", marginRight:10}}>
+        <a style={{color:'white', fontSize: "1.25vw", fontWeight: 500, textDecorationLine: 'blink'}} href='#contact'> Contact</a>         
+             </Grid>  
+               </Grid>
+                
+            </Container>
         )
     }
 }
