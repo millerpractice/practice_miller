@@ -5,6 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import arztlg from "./prof md.png"
 import arztmd from "./prof 230.png"
 import arztsm from "./prof 180.png"
+import arztxs from "./doc prof xs130.png"
 import kairalg from "./profile ai lg.png"
 import kairamd from "./profile ai md.png"
 import kairasm from "./profile ai sm.png"
@@ -20,13 +21,13 @@ export default class Team extends Component {
         return (
             <ScrollableAnchor id={'team'}>
                 <Container  style={{ maxHeight: 700,height: "80vw", backgroundColor: lightGreen[500], marginRight:0, marginLeft:0, maxWidth:1519.2, postion:"absolute"}}>
-                    <Typography  style={{ color: "white", paddingTop: 30,  fontSize: 30, textAlign: "center", }}>Our team</Typography>
+                    <Typography  style={{ color: "white", paddingTop: 30,  fontSize: "2.5vw", textAlign: "center", }}>Our team</Typography>
                     <Grid container justify="space-around" spacing={1} style={{position:"relative"}}>
                         <Grid item xs={6} style={{minWidth: "40%", maxWidth: "40%", maxHeight: "fit-content",  position: "relative"}}>
                             <Grid container justify="space-between">
                                 <Grid item xs style={{maxWidth: "30%", minWidth: "30%", minHeight: "fit-content",
     maxHeight: "fit-content"}}>
-                        <ResponsiveImgMaterialUi xs={arztsm} sm={arztsm} md={arztmd} lg={arztlg} 
+                        <ResponsiveImgMaterialUi xs={arztxs} sm={arztsm} md={arztmd} lg={arztlg} 
 style={{float: "right", borderRadius:16, paddingTop:60 }}></ResponsiveImgMaterialUi>
                            </Grid> 
                            
