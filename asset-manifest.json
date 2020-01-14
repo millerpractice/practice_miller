@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/practice_miller/static/css/main.d1b05096.chunk.css",
-    "main.js": "/practice_miller/static/js/main.6c0daaa0.chunk.js",
-    "main.js.map": "/practice_miller/static/js/main.6c0daaa0.chunk.js.map",
+    "main.js": "/practice_miller/static/js/main.63d598f9.chunk.js",
+    "main.js.map": "/practice_miller/static/js/main.63d598f9.chunk.js.map",
     "runtime-main.js": "/practice_miller/static/js/runtime-main.8fa77128.js",
     "runtime-main.js.map": "/practice_miller/static/js/runtime-main.8fa77128.js.map",
-    "static/js/2.6ba638b6.chunk.js": "/practice_miller/static/js/2.6ba638b6.chunk.js",
-    "static/js/2.6ba638b6.chunk.js.map": "/practice_miller/static/js/2.6ba638b6.chunk.js.map",
+    "static/js/2.29405b43.chunk.js": "/practice_miller/static/js/2.29405b43.chunk.js",
+    "static/js/2.29405b43.chunk.js.map": "/practice_miller/static/js/2.29405b43.chunk.js.map",
     "index.html": "/practice_miller/index.html",
-    "precache-manifest.8cb3e4b1a97f37647bb08a063930ec82.js": "/practice_miller/precache-manifest.8cb3e4b1a97f37647bb08a063930ec82.js",
+    "precache-manifest.39dbcbe729066ad8f0c3ba229c3d5eae.js": "/practice_miller/precache-manifest.39dbcbe729066ad8f0c3ba229c3d5eae.js",
     "service-worker.js": "/practice_miller/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/practice_miller/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.6ba638b6.chunk.js.LICENSE": "/practice_miller/static/js/2.6ba638b6.chunk.js.LICENSE",
+    "static/js/2.29405b43.chunk.js.LICENSE": "/practice_miller/static/js/2.29405b43.chunk.js.LICENSE",
+    "static/media/desktop150.png": "/practice_miller/static/media/desktop150.5ee52bc4.png",
+    "static/media/desktop200.png": "/practice_miller/static/media/desktop200.4cd8510b.png",
     "static/media/doc comp lg.png": "/practice_miller/static/media/doc comp lg.79caf771.png",
     "static/media/doc comp md.png": "/practice_miller/static/media/doc comp md.77c549d3.png",
     "static/media/doc comp xs.png": "/practice_miller/static/media/doc comp xs.d687c185.png",
@@ -29,8 +31,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8fa77128.js",
-    "static/js/2.6ba638b6.chunk.js",
+    "static/js/2.29405b43.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.6c0daaa0.chunk.js"
+    "static/js/main.63d598f9.chunk.js"
   ]
 }
