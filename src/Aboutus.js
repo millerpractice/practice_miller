@@ -4,9 +4,6 @@ import docxs from './doc comp xs2.png';
 import docsm from './doc comp xs.png';
 import docmd from './doc comp md.png';
 import doclg from './doc comp lg.png';
-import healthcaresm from "./healthcare sm.png"
-import healthcaremd from "./healthcare md.png"
-import healthcarelg from "./healthcare lg.png"
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import ScrollableAnchor from 'react-scrollable-anchor'
@@ -44,9 +41,6 @@ export default class Aboutus extends Component {
 </Grid>
 <Grid item xs style={{ backgroundColor: lightGreen[100], minHeight: "max-content", maxHeight: 600, position: "relative",
 borderRadius:16, minWidth: 180, maxWidth: 500, marginTop:100}}>
-
-<ResponsiveImgMaterialUi xs={healthcaresm} sm={healthcaresm} md={healthcaremd} lg={healthcarelg} 
-style={{float: "right", marginTop: 10}}></ResponsiveImgMaterialUi>
 
 <ResponsiveImgMaterialUi xs={docxs} sm={docsm} md={docmd} lg={doclg} 
 style={{float: "right", bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>

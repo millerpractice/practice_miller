@@ -18,7 +18,7 @@ export default class Contact extends Component {
             maxHeight: 800, height: "45vw",minHeight: 400, maxWidth: 1519.2, marginRight:0, marginLeft:0, position:"relative" }}>
                     <Grid item xs={6} style={{ backgroundColor: lightGreen[200], paddingLeft: 0, paddingRight: 0, 
                       marginTop: 10,borderRadius: 16, maxHeight: "max-content",
-                      minHeight: "min-content",paddingBottom: 50,marginBottom:50, maxWidth: "40%", minWidth: "40%"}}>
+                      minHeight: "min-content",marginBottom:50, maxWidth: "40%", minWidth: "40%"}}>
                           <Grid item xs >
                         <Typography  variant="h5" style={{ color: lightGreen[700], marginTop:40, fontWeight: 700,fontSize:"2vw" }}>Contact</Typography>
                        </Grid>
@@ -45,7 +45,7 @@ export default class Contact extends Component {
                 </Grid>
                 <Grid item xs={6} style={{ backgroundColor: lightGreen[200], paddingLeft: 0, paddingRight: 0, 
                     marginTop: 10,borderRadius: 16, maxHeight: "max-content", marginBottom:50,
-                    minHeight: "min-content",paddingBottom: 50, maxWidth: "40%", minWidth: "40%" }}>
+                    minHeight: "min-content", maxWidth: "40%", minWidth: "40%" }}>
                 <Typography style={{ color: teal[800],fontSize:"2vw", fontWeight: 700, marginTop:40 }}>Our opening hours</Typography>
                 <Typography  style={{ color: teal[800],  fontWeight: 500,fontSize:"1.2vw", marginTop:50 }}>Mon, Tue, Thu:</Typography> 
                 <Typography   style={{ color: teal[800],  fontWeight: 500,fontSize:"1.2vw" }}>08:00 - 12:00 / 15:00 - 18:00</Typography> 
