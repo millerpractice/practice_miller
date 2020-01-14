@@ -43,7 +43,7 @@ export default class Aboutus extends Component {
 borderRadius:16, minWidth: 180, maxWidth: 500, marginTop:100}}>
 
 <ResponsiveImgMaterialUi xs={docxs} sm={docsm} md={docmd} lg={doclg} 
-style={{float: "right", bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>
+style={{right: 0, bottom: 0, position:"absolute"}} ></ResponsiveImgMaterialUi>
                 
                 </Grid>
                 </Grid>
