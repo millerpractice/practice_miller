@@ -1,25 +1,21 @@
 {
   "files": {
     "main.css": "/practice_miller/static/css/main.d1b05096.chunk.css",
-    "main.js": "/practice_miller/static/js/main.31e3fc97.chunk.js",
-    "main.js.map": "/practice_miller/static/js/main.31e3fc97.chunk.js.map",
+    "main.js": "/practice_miller/static/js/main.3317326b.chunk.js",
+    "main.js.map": "/practice_miller/static/js/main.3317326b.chunk.js.map",
     "runtime-main.js": "/practice_miller/static/js/runtime-main.8fa77128.js",
     "runtime-main.js.map": "/practice_miller/static/js/runtime-main.8fa77128.js.map",
-    "static/js/2.29405b43.chunk.js": "/practice_miller/static/js/2.29405b43.chunk.js",
-    "static/js/2.29405b43.chunk.js.map": "/practice_miller/static/js/2.29405b43.chunk.js.map",
+    "static/js/2.9497f132.chunk.js": "/practice_miller/static/js/2.9497f132.chunk.js",
+    "static/js/2.9497f132.chunk.js.map": "/practice_miller/static/js/2.9497f132.chunk.js.map",
     "index.html": "/practice_miller/index.html",
-    "precache-manifest.7caa8d5b8353b29d4f68618c58b40806.js": "/practice_miller/precache-manifest.7caa8d5b8353b29d4f68618c58b40806.js",
+    "precache-manifest.221e05e28ec92cc1b9abd270c35590bb.js": "/practice_miller/precache-manifest.221e05e28ec92cc1b9abd270c35590bb.js",
     "service-worker.js": "/practice_miller/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/practice_miller/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.29405b43.chunk.js.LICENSE": "/practice_miller/static/js/2.29405b43.chunk.js.LICENSE",
-    "static/media/desktop150.png": "/practice_miller/static/media/desktop150.5ee52bc4.png",
-    "static/media/desktop200.png": "/practice_miller/static/media/desktop200.4cd8510b.png",
+    "static/js/2.9497f132.chunk.js.LICENSE": "/practice_miller/static/js/2.9497f132.chunk.js.LICENSE",
     "static/media/doc comp lg.png": "/practice_miller/static/media/doc comp lg.79caf771.png",
     "static/media/doc comp md.png": "/practice_miller/static/media/doc comp md.77c549d3.png",
     "static/media/doc comp xs.png": "/practice_miller/static/media/doc comp xs.d687c185.png",
     "static/media/doc comp xs2.png": "/practice_miller/static/media/doc comp xs2.3cff9f29.png",
-    "static/media/healthcare lg.png": "/practice_miller/static/media/healthcare lg.15c22834.png",
-    "static/media/healthcare md.png": "/practice_miller/static/media/healthcare md.6ec9e088.png",
     "static/media/logo lg.png": "/practice_miller/static/media/logo lg.d9e65979.png",
     "static/media/prof 180.png": "/practice_miller/static/media/prof 180.c9bd25d9.png",
     "static/media/prof 230.png": "/practice_miller/static/media/prof 230.cecc78b4.png",
@@ -31,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8fa77128.js",
-    "static/js/2.29405b43.chunk.js",
+    "static/js/2.9497f132.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.31e3fc97.chunk.js"
+    "static/js/main.3317326b.chunk.js"
   ]
 }

@@ -1,35 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92018152ef5de78d90747c5dad176cce",
+    "revision": "8fc61ef18313c32108b5fc6a3af90364",
     "url": "/practice_miller/index.html"
   },
   {
-    "revision": "3741224bad9718144c9f",
+    "revision": "08aef9fce579580f6147",
     "url": "/practice_miller/static/css/main.d1b05096.chunk.css"
   },
   {
-    "revision": "9425f506daffd07c477a",
-    "url": "/practice_miller/static/js/2.29405b43.chunk.js"
+    "revision": "93dcd571056de6a3d6fa",
+    "url": "/practice_miller/static/js/2.9497f132.chunk.js"
   },
   {
     "revision": "a0560e08c2bea09cecbe463a56dcf52b",
-    "url": "/practice_miller/static/js/2.29405b43.chunk.js.LICENSE"
+    "url": "/practice_miller/static/js/2.9497f132.chunk.js.LICENSE"
   },
   {
-    "revision": "3741224bad9718144c9f",
-    "url": "/practice_miller/static/js/main.31e3fc97.chunk.js"
+    "revision": "08aef9fce579580f6147",
+    "url": "/practice_miller/static/js/main.3317326b.chunk.js"
   },
   {
     "revision": "7d8c610e83fab49354bb",
     "url": "/practice_miller/static/js/runtime-main.8fa77128.js"
-  },
-  {
-    "revision": "5ee52bc4994dc81b4a31a793057949ed",
-    "url": "/practice_miller/static/media/desktop150.5ee52bc4.png"
-  },
-  {
-    "revision": "4cd8510bfbe547990dfdfedfa647ca3b",
-    "url": "/practice_miller/static/media/desktop200.4cd8510b.png"
   },
   {
     "revision": "79caf77128139468229ab73b408158b2",
@@ -46,14 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3cff9f29fdfc213fc1be4f2de0b3b597",
     "url": "/practice_miller/static/media/doc comp xs2.3cff9f29.png"
-  },
-  {
-    "revision": "15c228342150922f4c5bb1da5874bba8",
-    "url": "/practice_miller/static/media/healthcare lg.15c22834.png"
-  },
-  {
-    "revision": "6ec9e088345ea8ef83cad6643839fe3b",
-    "url": "/practice_miller/static/media/healthcare md.6ec9e088.png"
   },
   {
     "revision": "d9e659790a821d0454453caf5773556b",
