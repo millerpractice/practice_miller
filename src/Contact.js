@@ -23,16 +23,16 @@ export default class Contact extends Component {
                         <Typography  variant="h5" style={{ color: lightGreen[700], marginTop:40, fontWeight: 700,fontSize:"2vw" }}>Contact</Typography>
                        </Grid>
                        <Grid item xs style={{maxWidth: "fit-content", marginTop: 50}}>
-                        <MailOutlineIcon color="primary" style={{  marginLeft: 40, fontSize: "2.2vw", fontWeight:700 }}>
+                        <MailOutlineIcon color="primary" style={{  float: "left", marginLeft: 40, fontSize: "2.2vw", fontWeight:700 }}>
                         </MailOutlineIcon>
-                        <Typography  variant="subtitle1" style={{ color: lightGreen[700],  fontSize: "1.2vw",float: "right",
+                        <Typography  variant="subtitle1" style={{ color: lightGreen[700],  fontSize: "1.2vw",float: "left",
     marginLeft: 20, top: 5, position: "relative", fontWeight: 500 }}>
                             info_praxismiller@web.de</Typography>
                             </Grid>
-                            <Grid item xs style={{minHeight: 60, maxWidth: "fit-content",paddingTop: 40 }}>
+                            <Grid item xs style={{minHeight: 60, maxWidth: "fit-content",paddingTop: 60 }}>
                         <PhoneIcon color="primary" style={{ float: "left", marginLeft: 40,  fontSize: "2.2vw", bottom: 0 }}></PhoneIcon>
                         <Typography variant="subtitle1" style={{ color: lightGreen[700], fontSize: "1.2vw", fontWeight: 500,
-                    float:"right", marginLeft: 20, top: 5, position: "relative",  bottom: 0 }}>
+                    float:"left", marginLeft: 20, top: 5, position: "relative",  bottom: 0 }}>
                             01745687998 </Typography>
                             </Grid>
                             <Grid item xs style={{maxWidth: 250, paddingTop: 60,position: "absolute" }}>
