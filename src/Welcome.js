@@ -11,7 +11,7 @@ export default class Welcome extends Component{
         return(
             configureAnchors({offset: -10}),
             <ScrollableAnchor id={'welcome'}>
-                <Container style={{maxHeight:550, maxWidth:1519.2, marginTop:"13%", paddingLeft: "inherit", paddingRight: "inherit"}}>
+                <Container style={{maxHeight:550, maxWidth:"100%", marginTop:"13%", paddingLeft: "inherit", paddingRight: "inherit"}}>
     <img src={pic} alt="welcome" style={{width:"100%"}}/>
 </Container>
 </ScrollableAnchor>
