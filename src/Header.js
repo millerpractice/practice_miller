@@ -9,7 +9,7 @@ export default class Header extends Component{
     
 render(){
     return(
-  <Container style ={{maxHeight:64, maxWidth:1519.2, backgroundColor:lightGreen[700], position:"absolute"}}>
+  <Container style ={{maxHeight:64, maxWidth:"100%", backgroundColor:lightGreen[700], position:"absolute"}}>
    
     <Typography  style={{float:"right", fontSize: "1.05vw",color: "white", marginTop:20}}>
       01745687998

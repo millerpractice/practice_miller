@@ -15,7 +15,7 @@ export default class Aboutus extends Component {
     render() {
         return (
             <ScrollableAnchor id={'aboutus'}>
-                <Grid container direction="row"  style={{ backgroundColor: lightGreen[100], minHeight:200 , maxHeight:700}}>
+                <Grid container direction="row"  style={{ backgroundColor: lightGreen[100], minHeight:200 , maxHeight:700, maxWidth: "100%"}}>
                     <Grid item xs style={{ backgroundColor: lightGreen[200], minHeight: "min-content",maxHeight:600, 
                     borderRadius:16, marginTop:60,paddingBottom:20,marginBottom:40,
                     minWidth: 180, maxWidth: 500, marginLeft: 80}}>

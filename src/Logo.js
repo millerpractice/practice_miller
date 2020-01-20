@@ -14,7 +14,7 @@ export default class Logo extends Component {
     render() {
         return (
 
-            <Container style={{marginTop: "3.2%",backgroundColor: lightGreen[300], maxHeight:160, maxWidth:1519.2, position: "absolute",
+            <Container style={{marginTop: "3.2%",backgroundColor: lightGreen[300], maxHeight:160, maxWidth:"100%", position: "absolute",
                 paddingLeft: "initial", paddingRight: "initial"}}>
 
                 <ResponsiveImgMaterialUi

@@ -15,7 +15,7 @@ export default class Contact extends Component {
         return (
             <ScrollableAnchor id={'contact'}>
                 <Grid container  justify="space-around" style={{ paddingTop: 45, backgroundColor: lightGreen[300], flexWrap: "inherit",
-            maxHeight: 800, height: "45vw",minHeight: 450, maxWidth: 1519.2, marginRight:0, marginLeft:0, position:"relative" }}>
+            maxHeight: 800, height: "45vw",minHeight: 450, maxWidth: "100%", marginRight:0, marginLeft:0, position:"relative" }}>
                     <Grid item xs={6} style={{ backgroundColor: lightGreen[200], paddingLeft: 0, paddingRight: 0, 
                       marginTop: 10,borderRadius: 16, maxHeight: "max-content",
                       minHeight: "min-content",marginBottom:50, maxWidth: "40%", minWidth: "40%"}}>

@@ -20,7 +20,8 @@ export default class Team extends Component {
     render() {
         return (
             <ScrollableAnchor id={'team'}>
-                <Container  style={{ maxHeight: 700,height: "80vw", backgroundColor: lightGreen[500], marginRight:0, marginLeft:0, maxWidth:1519.2, postion:"absolute"}}>
+                <Container  style={{ maxHeight: 700,height: "80vw", backgroundColor: lightGreen[500], marginRight:0, marginLeft:0, 
+                maxWidth:"100%", postion:"absolute"}}>
                     <Typography  style={{ color: "white", paddingTop: 30,  fontSize: "2.5vw", textAlign: "center", }}>Our team</Typography>
                     <Grid container justify="space-around" spacing={1} style={{position:"relative"}}>
                         <Grid item xs={6} style={{minWidth: "40%", maxWidth: "40%", maxHeight: "fit-content",  position: "relative"}}>
